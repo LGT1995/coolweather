@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/mytextview_tmp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="45sp"
+        android:text="27°"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/mytextview_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:layout_below="@+id/mytextview_tmp"
+        android:textSize="15sp"
+        />
+
+
+    <TextView
+        android:id="@+id/mytextview_cond_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mytextview_city"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/mytextview_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mytextview_cond_txt"
+        android:layout_centerHorizontal="true"
+        android:text="sadfasdf"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        />
+
+
+</RelativeLayout>
